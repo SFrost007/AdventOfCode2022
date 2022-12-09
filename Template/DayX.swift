@@ -9,6 +9,7 @@ final class DayX: Day {
     init(input: String) {
         inputData = input
             .components(separatedBy: .newlines)
+            .filter { !$0.isEmpty }
     }
     
     // MARK: - Problem cases
