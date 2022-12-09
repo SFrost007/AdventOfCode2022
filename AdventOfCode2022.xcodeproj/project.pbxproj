@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771F5B240F8ED694E46EB260 /* Day1_MyInput.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2E1DC9E1880DDF29B7E2082E /* Day1_MyInput.txt */; };
+		7C8BA698EB397C76703C0C2B /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D2285555FC3826D621903 /* Day1.swift */; };
+		B057FCC2ABC834FDC3F55DB9 /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7F89C24EB06F2EFE8B21BC /* Day1Tests.swift */; };
+		D09AD84C8FC732102B3B152B /* Day1_Example.txt in Resources */ = {isa = PBXBuildFile; fileRef = FF5D02CEFE38005C0CB168CF /* Day1_Example.txt */; };
 		F413EACA2578EB8400CA5BE2 /* AoCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F413EAC92578EB8400CA5BE2 /* AoCTestCase.swift */; };
 		F41944F027694E78008CF08C /* DayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41944EF27694E78008CF08C /* DayProtocol.swift */; };
 		F4F746F025784934000F3978 /* AdventOfCode2022.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F746E625784933000F3978 /* AdventOfCode2022.framework */; };
@@ -23,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D7F89C24EB06F2EFE8B21BC /* Day1Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Day1Tests.swift; sourceTree = "<group>"; };
+		2E1DC9E1880DDF29B7E2082E /* Day1_MyInput.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = Day1_MyInput.txt; sourceTree = "<group>"; };
+		707D2285555FC3826D621903 /* Day1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		F413EAC92578EB8400CA5BE2 /* AoCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoCTestCase.swift; sourceTree = "<group>"; };
 		F41944EF27694E78008CF08C /* DayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayProtocol.swift; sourceTree = "<group>"; };
 		F4C80642275A767900BDE2A6 /* Template */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Template; sourceTree = "<group>"; };
@@ -31,6 +38,7 @@
 		F4F746EA25784933000F3978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F746EF25784934000F3978 /* AdventOfCode2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventOfCode2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F746F625784934000F3978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5D02CEFE38005C0CB168CF /* Day1_Example.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = Day1_Example.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 			children = (
 				F41944EF27694E78008CF08C /* DayProtocol.swift */,
 				F4F746EA25784933000F3978 /* Info.plist */,
+				707D2285555FC3826D621903 /* Day1.swift */,
 			);
 			path = AdventOfCode2022;
 			sourceTree = "<group>";
@@ -95,6 +104,7 @@
 				F413EAC92578EB8400CA5BE2 /* AoCTestCase.swift */,
 				F4F746F625784934000F3978 /* Info.plist */,
 				F4F7470E257849F5000F3978 /* InputData */,
+				1D7F89C24EB06F2EFE8B21BC /* Day1Tests.swift */,
 			);
 			path = AdventOfCode2022Tests;
 			sourceTree = "<group>";
@@ -102,6 +112,8 @@
 		F4F7470E257849F5000F3978 /* InputData */ = {
 			isa = PBXGroup;
 			children = (
+				FF5D02CEFE38005C0CB168CF /* Day1_Example.txt */,
+				2E1DC9E1880DDF29B7E2082E /* Day1_MyInput.txt */,
 			);
 			path = InputData;
 			sourceTree = "<group>";
@@ -204,6 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09AD84C8FC732102B3B152B /* Day1_Example.txt in Resources */,
+				771F5B240F8ED694E46EB260 /* Day1_MyInput.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F41944F027694E78008CF08C /* DayProtocol.swift in Sources */,
+				7C8BA698EB397C76703C0C2B /* Day1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F413EACA2578EB8400CA5BE2 /* AoCTestCase.swift in Sources */,
+				B057FCC2ABC834FDC3F55DB9 /* Day1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
