@@ -29,3 +29,16 @@ extension Array {
         }
     }
 }
+
+extension ClosedRange<Int> {
+    init(string: String, separator: String = "-") {
+        let parts = string.components(separatedBy: separator)
+            .map { Int($0)! }
+        self = parts[0]...parts[1]
+    }
+}
+extension ClosedRange {
+    func contains(_ other: Self) -> Bool {
+        other.lowerBound >= lowerBound && other.upperBound <= upperBound
+    }
+}
